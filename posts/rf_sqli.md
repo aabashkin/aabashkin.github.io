@@ -41,6 +41,7 @@
 * This blog post will examine a common type of vulnerability, SQL injection (SQLi), in the context of LC / RPA in order to demonstrate the issue at hand by using a concrete example.
 * Guidelines around preventative measures and remediation will be presented.
 * Future challenges and additional issues will be reviewed.
+* Code and instructions for running examples can be found in the [GitHub repo](https://github.com/aabashkin/low-code-rpa-robot-framework-security-sql-injection-demo)
 
 <br>
 
