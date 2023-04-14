@@ -126,7 +126,7 @@ Get Students From Excel File
     RETURN    ${list_students}
 ```
 	
-In this example, our data source is an Excel file called `new_students.xlsx`. We read this file using a custom function (known as a keyword) that we define called `Get Students From Excel File`. For the sake of simplicity, I've omitted the implementation of this keyword (TODO: add link check out the full source code) , all that you need to know is that it returns a list of student names from the Excel file name that we provide.
+In this example, our data source is an Excel file called `new_students.xlsx`. We read this file using a custom function (known as a keyword) that we define called `Get Students From Excel File`. For the sake of simplicity, I've omitted the implementation of this keyword, all that you need to know is that it returns a list of student names from the Excel file name that we provide. To see the full implementation, please go to the [code repo](https://github.com/aabashkin/low-code-rpa-robot-framework-security-sql-injection-demo)
 
 Next, we take that list and loop through it, generating a new SQL query for each student and sending the query to our database. This is where we encounter the SQL injection vulnerability from our initial example.
 
@@ -146,7 +146,7 @@ INSERT INTO Students (name) VALUES ('Robert'); DROP TABLE Students;--')
 ```
 
 
-TODO: To see this example in action, please refer to the instructions (rcc, Github link).
+**To see this example in action, please refer to the instructions in the [code repo](https://github.com/aabashkin/low-code-rpa-robot-framework-security-sql-injection-demo).**
 
 <br>
 
@@ -338,9 +338,9 @@ Monitoring the security space in Low Code is crucial, and will provide may excit
 <br>
 
 ## References
-[SQLi Robot Framework example source code on GitHub](TODO)
+[SQLi Robot Framework example source code on GitHub](https://github.com/aabashkin/low-code-rpa-robot-framework-security-sql-injection-demo)
 
-[Robot Framework / RPA Framework Security Cheatsheet](TODO)
+[Robot Framework / RPA Framework Security Cheatsheet](https://github.com/aabashkin/cheatsheets/blob/main/low-code-rpa-robot-framework-security-sql-injection.md)
 
 [OWASP Low-Code / No-Code Top 10 Project](https://owasp.org/www-project-top-10-low-code-no-code-security-risks/)
 
